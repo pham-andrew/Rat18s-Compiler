@@ -1,0 +1,6 @@
+%% 
+int one, two, three;
+boolean four;
+int five, six, seven, eight, nine;
+get(one, two, three, four, five, six, seven, eight, nine);
+put (one + two);

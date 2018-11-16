@@ -1,0 +1,63 @@
+%% 
+
+ int   i, max, sum;
+ int fahr, upper, alpha, charlie, echo, foxtrot, golf, hotel, idaho;
+ boolean bravo, monkey;
+ int one, two, three;
+ boolean four;
+ int five, six, seven, eight, nine;
+
+bravo = monkey;
+monkey = bravo;
+
+ sum = 0;
+ i = 1;
+ get ( max);
+ while (i <  max) {
+ sum = sum + i;
+ i  = i + 1;
+ }
+ put (sum + max);
+
+if (bravo == bravo)
+		bravo = true;
+	endif
+
+ get(one, two, three, four, five, six, seven, eight, nine);
+ put (test3$ + one);
+ fahr = 0;
+	upper = 0;
+	while  (fahr < upper)   
+		alpha = 23;
+	
+	bravo = false;
+	if (bravo == false)
+		bravo = true;
+	endif
+
+	charlie = 23 + 34;
+	echo = (13)*(324);
+	foxtrot = echo/2;
+	if(echo < foxtrot)
+		echo = 0;
+	endif
+
+	idaho = golf - hotel;
+ fahr = 0;
+	upper = 0;
+	while  (fahr < upper)   
+		alpha = 23;
+	
+	bravo = false;
+	if (bravo == false)
+		bravo = true;
+	endif
+
+	charlie = 23 + 34;
+	echo = (13)*(324);
+	foxtrot = echo/2;
+	if(echo < foxtrot)
+		echo = 0;
+	endif
+
+	idaho = golf - hotel;

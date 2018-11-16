@@ -1,0 +1,2090 @@
+<Rat18S> ::= <Opt Declaration List> <Statement List>
+
+	Token: Separator	Lexeme: %%
+
+<Opt Declaration List> ::= <Declaration List> | <Empty>
+
+<Declaration List> ::= <Declaration> ; <Declaration List2>
+
+<Declaration> ::= <Qualifier> <DeclareIDs> 
+
+<Qualifier> ::= int | boolean | real 
+
+	Token: Keyword	Lexeme: int
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: i
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: max
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: sum
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Declaration List2> ::= <Declaration List> | <Empty>
+
+<Declaration List> ::= <Declaration> ; <Declaration List2>
+
+<Declaration> ::= <Qualifier> <DeclareIDs> 
+
+<Qualifier> ::= int | boolean | real 
+
+	Token: Keyword	Lexeme: int
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: fahr
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: upper
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: alpha
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: charlie
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: echo
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: foxtrot
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: golf
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: hotel
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: idaho
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Declaration List2> ::= <Declaration List> | <Empty>
+
+<Declaration List> ::= <Declaration> ; <Declaration List2>
+
+<Declaration> ::= <Qualifier> <DeclareIDs> 
+
+<Qualifier> ::= int | boolean | real 
+
+	Token: Keyword	Lexeme: boolean
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: bravo
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: monkey
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Declaration List2> ::= <Declaration List> | <Empty>
+
+<Declaration List> ::= <Declaration> ; <Declaration List2>
+
+<Declaration> ::= <Qualifier> <DeclareIDs> 
+
+<Qualifier> ::= int | boolean | real 
+
+	Token: Keyword	Lexeme: int
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: one
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: two
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: three
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Declaration List2> ::= <Declaration List> | <Empty>
+
+<Declaration List> ::= <Declaration> ; <Declaration List2>
+
+<Declaration> ::= <Qualifier> <DeclareIDs> 
+
+<Qualifier> ::= int | boolean | real 
+
+	Token: Keyword	Lexeme: boolean
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: four
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Declaration List2> ::= <Declaration List> | <Empty>
+
+<Declaration List> ::= <Declaration> ; <Declaration List2>
+
+<Declaration> ::= <Qualifier> <DeclareIDs> 
+
+<Qualifier> ::= int | boolean | real 
+
+	Token: Keyword	Lexeme: int
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: five
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: six
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: seven
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: eight
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+	Token: Separator	Lexeme: ,
+
+<DeclareIDs> ::= <Identifier> <DeclareIDs2>
+
+	Token: Identifier	Lexeme: nine
+
+<IDs2> ::= , <DeclareIDs> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Declaration List2> ::= <Declaration List> | <Empty>
+
+<Empty> ::= epsilon
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: bravo
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: monkey
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: monkey
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: bravo
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: sum
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 0
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: i
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 1
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Scan> ::= get ( <IDs> );
+
+	Token: Keyword	Lexeme: get
+
+	Token: Separator	Lexeme: (
+
+	Token: Identifier	Lexeme: max
+
+	Token: Separator	Lexeme: )
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<While> ::= while ( <Condition> ) <Statement> 
+
+	Token: Keyword	Lexeme: while
+
+	Token: Separator	Lexeme: (
+
+<Condition> ::= <Expression> <Relop> <Expression>
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: i
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Operator	Lexeme: <
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: max
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Compound> ::= { <Statement List> }
+
+	Token: Separator	Lexeme: {
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: sum
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: sum
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Expression2> ::= + <Term> <Expression2> | <Empty>
+
+	Token: Operator	Lexeme: +
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: i
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: i
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: i
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Expression2> ::= + <Term> <Expression2> | <Empty>
+
+	Token: Operator	Lexeme: +
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 1
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: }
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Print> ::= put ( <Expression> ) ;
+
+	Token: Keyword	Lexeme: put
+
+	Token: Separator	Lexeme: (
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: sum
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Expression2> ::= + <Term> <Expression2> | <Empty>
+
+	Token: Operator	Lexeme: +
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: max
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<If> ::= if ( <Condition> ) <Statement> <If2>
+
+	Token: Keyword	Lexeme: if
+
+	Token: Separator	Lexeme: (
+
+<Condition> ::= <Expression> <Relop> <Expression>
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: bravo
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Operator	Lexeme: ==
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: bravo
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: bravo
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Keyword	Lexeme: true
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<If2> ::= endif | else <Statement> endif
+
+	Token: Keyword	Lexeme: endif
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Scan> ::= get ( <IDs> );
+
+	Token: Keyword	Lexeme: get
+
+	Token: Separator	Lexeme: (
+
+	Token: Identifier	Lexeme: one
+
+	Token: Separator	Lexeme: ,
+
+	Token: Identifier	Lexeme: two
+
+	Token: Separator	Lexeme: ,
+
+	Token: Identifier	Lexeme: three
+
+	Token: Separator	Lexeme: ,
+
+	Token: Identifier	Lexeme: four
+
+	Token: Separator	Lexeme: ,
+
+	Token: Identifier	Lexeme: five
+
+	Token: Separator	Lexeme: ,
+
+	Token: Identifier	Lexeme: six
+
+	Token: Separator	Lexeme: ,
+
+	Token: Identifier	Lexeme: seven
+
+	Token: Separator	Lexeme: ,
+
+	Token: Identifier	Lexeme: eight
+
+	Token: Separator	Lexeme: ,
+
+	Token: Identifier	Lexeme: nine
+
+	Token: Separator	Lexeme: )
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Print> ::= put ( <Expression> ) ;
+
+	Token: Keyword	Lexeme: put
+
+	Token: Separator	Lexeme: (
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: test3$
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Expression2> ::= + <Term> <Expression2> | <Empty>
+
+	Token: Operator	Lexeme: +
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: one
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: fahr
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 0
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: upper
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 0
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<While> ::= while ( <Condition> ) <Statement> 
+
+	Token: Keyword	Lexeme: while
+
+	Token: Separator	Lexeme: (
+
+<Condition> ::= <Expression> <Relop> <Expression>
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: fahr
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Operator	Lexeme: <
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: upper
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: alpha
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 23
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: bravo
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Keyword	Lexeme: false
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<If> ::= if ( <Condition> ) <Statement> <If2>
+
+	Token: Keyword	Lexeme: if
+
+	Token: Separator	Lexeme: (
+
+<Condition> ::= <Expression> <Relop> <Expression>
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: bravo
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Operator	Lexeme: ==
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Keyword	Lexeme: false
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: bravo
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Keyword	Lexeme: true
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<If2> ::= endif | else <Statement> endif
+
+	Token: Keyword	Lexeme: endif
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: charlie
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 23
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Expression2> ::= + <Term> <Expression2> | <Empty>
+
+	Token: Operator	Lexeme: +
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 34
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: echo
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Separator	Lexeme: (
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 13
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Term2> ::= * <Factor> <Term2> | <Empty>
+
+	Token: Operator	Lexeme: *
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Separator	Lexeme: (
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 324
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: foxtrot
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: echo
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Term3> ::= / <Factor> <Term3> | <Empty>
+
+	Token: Operator	Lexeme: /
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 2
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<If> ::= if ( <Condition> ) <Statement> <If2>
+
+	Token: Keyword	Lexeme: if
+
+	Token: Separator	Lexeme: (
+
+<Condition> ::= <Expression> <Relop> <Expression>
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: echo
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Operator	Lexeme: <
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: foxtrot
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: echo
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 0
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<If2> ::= endif | else <Statement> endif
+
+	Token: Keyword	Lexeme: endif
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: idaho
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: golf
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Expression3> ::= - <Term> <Expression3> | <Empty>
+
+	Token: Operator	Lexeme: -
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: hotel
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: fahr
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 0
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: upper
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 0
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<While> ::= while ( <Condition> ) <Statement> 
+
+	Token: Keyword	Lexeme: while
+
+	Token: Separator	Lexeme: (
+
+<Condition> ::= <Expression> <Relop> <Expression>
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: fahr
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Operator	Lexeme: <
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: upper
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: alpha
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 23
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: bravo
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Keyword	Lexeme: false
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<If> ::= if ( <Condition> ) <Statement> <If2>
+
+	Token: Keyword	Lexeme: if
+
+	Token: Separator	Lexeme: (
+
+<Condition> ::= <Expression> <Relop> <Expression>
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: bravo
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Operator	Lexeme: ==
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Keyword	Lexeme: false
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: bravo
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Keyword	Lexeme: true
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<If2> ::= endif | else <Statement> endif
+
+	Token: Keyword	Lexeme: endif
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: charlie
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 23
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Expression2> ::= + <Term> <Expression2> | <Empty>
+
+	Token: Operator	Lexeme: +
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 34
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: echo
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Separator	Lexeme: (
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 13
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Term2> ::= * <Factor> <Term2> | <Empty>
+
+	Token: Operator	Lexeme: *
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Separator	Lexeme: (
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 324
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: foxtrot
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: echo
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Term3> ::= / <Factor> <Term3> | <Empty>
+
+	Token: Operator	Lexeme: /
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 2
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<If> ::= if ( <Condition> ) <Statement> <If2>
+
+	Token: Keyword	Lexeme: if
+
+	Token: Separator	Lexeme: (
+
+<Condition> ::= <Expression> <Relop> <Expression>
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: echo
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Operator	Lexeme: <
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: foxtrot
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: )
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: echo
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Integer	Lexeme: 0
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<If2> ::= endif | else <Statement> endif
+
+	Token: Keyword	Lexeme: endif
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Statement List> ::= <Statement> <Statement List2>
+
+<Statement> ::= <Compound> | <Assign> | <If> | <Return> | <Print> | <Scan> | <While>
+
+<Assign> ::= <Identifier> = <Expression> ;
+
+	Token: Identifier	Lexeme: idaho
+
+	Token: Operator	Lexeme: =
+
+<Expression> ::= <Term> <Expression4>
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: golf
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Expression3> ::= - <Term> <Expression3> | <Empty>
+
+	Token: Operator	Lexeme: -
+
+<Term> ::= <Factor> <Term4>
+
+<Factor> ::= - <Primary> | <Primary>
+
+<Primary> ::= <Identifier> <Primary2> | <Integer> | ( <Expression> ) 
+
+	Token: Identifier	Lexeme: hotel
+
+<Primary2> ::= ( <IDs> ) | <Empty> 
+
+<Empty> ::= epsilon
+
+<Term4> ::= <Term2> | <Term3> | <Empty>
+
+<Empty> ::= epsilon
+
+<Expression4> ::= <Expression2> | <Expression3> | <Empty>
+
+<Empty> ::= epsilon
+
+	Token: Separator	Lexeme: ;
+
+<Statement List2> ::= <Statement List> | <Empty>
+
+<Empty> ::= epsilon
+
+Syntactic Parsing Complete.
+

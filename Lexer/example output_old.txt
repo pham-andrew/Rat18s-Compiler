@@ -1,0 +1,36 @@
+1 PUSHI 0 
+2 POPM 2002
+3 PUSHI 1
+4 POPM 2000
+5 STDIN  // we're getting a mysterious input
+6 POPM 2001 // and putting it into max
+7 LABEL
+8 PUSHM 2000
+9 PUSHM 2001
+10 LES
+11 JUMPZ 21
+12 PUSHM 2002
+13 PUSHM 2000
+14 ADD 
+15 POPM 2002
+16 PUSHM 2000
+17 PUSHI 1
+18 ADD
+19 POPM 2000
+20 JUMP 7
+21 PUSHM 2002
+22 PUSHM 2001
+23 ADD // we're adding all the stuff in put
+24 STDOUT // and outputting it into the mysterious output land
+
+
+ int   i, max, sum;
+
+ sum = 0;
+ i = 1;
+ get ( max);
+ while (i <  max) {
+ sum = sum + i;
+ i  = i + 1;
+ }
+ put (sum + max);
